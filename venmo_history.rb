@@ -6,7 +6,6 @@ gemfile do
   gem 'http'
   gem 'nap', require: 'rest'
   gem 'cocoapods', '~> 0.34.1'
-  gem 'json'
   gem 'csv'
   gem 'addressable'
   gem 'optparse'
@@ -23,8 +22,8 @@ def DISPLAY_USAGE_AND_EXIT
   puts "  -d, -date [2018-01-01]   fetch transactions from now to past date"
   puts "  -t, -token [TOKEN]       access token to use Venmo API\n\n"
   puts "More Options:\n\n"
-  puts "  -b, -before_id [ID]      Start after specific transaction_id"
-  puts "  -h, -help                Show this message and exit.\n\n"
+  puts "  -b, -before_id [ID]      start after specific transaction_id"
+  puts "  -h, -help                show this message and exit.\n\n"
   exit
 end
 

@@ -23,8 +23,8 @@ Required Options:
   -t, -access_token [TOKEN]  access token to use Venmo API
 
  More Options:
-  -b, -before_id [id]        Start after specific transaction_id
-  -help, -h                  show this message and exit
+  -b, -before_id [id]        start after specific transaction_id
+  -h, -help                  show this message and exit
 ```
 
 ## **Instructions**
@@ -79,7 +79,7 @@ Continues fetching.....
 
 ## **Disclaimer**
 
-I was able to export all my history, December 2020 to January 2015, 1500+ transactions, without any issues. The private endpoint being used `stories/` is the suggested way to traverse your account history.
+I was able to export all my history, January 2015 to December 2020, 1500+ transactions, without any issues. The private endpoint being used `stories/` is the suggested way to traverse your account history.
 
 I expected a rate limit, or some other API Error while testing this script but encountered none.
 
